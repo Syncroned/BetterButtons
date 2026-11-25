@@ -1,0 +1,36 @@
+{
+	"geode": "6.0.0",
+	"version": "1.0.0",
+	"gd": {
+		"win": "2.2091",
+		"mac": "2.2091",
+		"android": "2.2091"
+	},
+	"id": "sync.better-edit-menu",
+	"name": "Better Edit Menu",
+	"developers": [
+		"Sync"
+	],
+	"description": "Restructures the editor's edit menu like BetterEdit does: groups move buttons directionally into a compact menu, and adds quarter/eighth/unit step move buttons",
+	"links": {
+		"source": "https://github.com/Syncroned/BetterButtons"
+	},
+	"dependencies": {
+		"geode.node-ids": "1.24.0-beta.1",
+		"alphalaneous.editortab_api": "3.0.0-beta.4"
+	},
+	"settings": {
+		"new-edit-menu": {
+			"type": "bool",
+			"default": true,
+			"name": "Grouped Edit Menu",
+			"description": "Replaces the edit button bar with a compact menu that groups move buttons by direction. <cr>Requires re-entering the editor!</c>"
+		},
+		"extra-move-buttons": {
+			"type": "bool",
+			"default": true,
+			"name": "Extra Move Step Buttons",
+			"description": "Adds quarter-grid (7.5u @ grid 30), eighth-grid (3.75u), and pixel (0.1u) step move buttons to the edit menu"
+		}
+	}
+}

@@ -1,0 +1,6 @@
+build/
+_be_reference/
+*.geode
+
+dist/
+ci-artifact/
